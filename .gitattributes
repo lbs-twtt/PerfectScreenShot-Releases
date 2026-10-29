@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+# Original upstream license texts must remain byte-for-byte unchanged.
+licenses/*.txt -text -whitespace
