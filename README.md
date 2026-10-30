@@ -6,9 +6,17 @@ English | [한국어](README.ko.md)
 
 A free Windows screenshot tool. Capture an area, add annotations, and copy or save the result.
 
-**[Download v2.0.1 for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.0.1/PerfectScreenShot-v2.0.1-bilingual-preview-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Download v2.1.0 for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.1.0/PerfectScreenShot-v2.1.0-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
-v2.0.1 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
+v2.1.0 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
+
+## New in v2.1.0
+
+- Open recent captures with **Ctrl+Alt+V**. Select an image for a larger preview; use **Fit**, **100%**, or **Ctrl+mouse wheel** to inspect it.
+- **Delete selected** removes one capture; **Delete all** asks for confirmation. Saved files and clipboard content are unchanged.
+- **Edit** opens the selected image with the existing annotation tools. **Finish editing** keeps the result as a new recent capture without copying or saving a file. Copy/save/pin also retain the edited result.
+- The original is kept subject to the normal limit of 10 captures. Repeated outputs from the same edit session update that session's entry. Earlier annotations are part of the image; you can add new marks or crop it.
+- **Ctrl+Enter** finishes editing. While typing text, it first finishes the text entry. **Esc** or the editor's close button discards changes made since the last output.
 
 ## Get started
 

@@ -2,6 +2,26 @@
 
 [English guide](README.md) · [한국어 안내](README.ko.md) · [Downloads](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases)
 
+## v2.1.0 — Recent captures / 최근 캡처 개선
+
+### English
+
+- Delete the selected recent capture, or confirm deletion of the entire list.
+- Edit a recent capture at its original resolution. Finish editing adds the edited result to history while keeping the original under the 10-image limit. Copy/save/pin continue to work.
+- Larger preview with Fit/100%/Ctrl+wheel zoom and scrolling for long images. Only the selected image is decoded for preview.
+- History stays in your PC's memory and clears on exit or when history is disabled. Deletion does not remove saved files or clear the clipboard.
+- Korean and English interfaces are included. Existing experimental scrolling capture remains unchanged; its complete Chrome/NAVER workflow is still unverified.
+
+### 한국어
+
+- 최근 캡처에서 선택한 한 장을 삭제하거나 확인 후 전체 목록을 삭제할 수 있습니다.
+- 선택한 캡처를 원본 해상도로 편집합니다. 편집 완료 시 결과를 최근 캡처에 추가하고, 원본에도 최대 10장 보관 규칙을 적용합니다. 복사·파일 저장·화면 고정도 사용할 수 있습니다.
+- 큰 미리보기에서 화면 맞춤·100%·Ctrl+휠 확대/축소와 긴 이미지 스크롤을 지원합니다. 선택한 한 장만 원본 이미지로 불러옵니다.
+- 기록은 사용자 PC의 메모리에만 보관하며 종료하거나 보관 기능을 끄면 지워집니다. 목록 삭제는 저장 파일이나 클립보드 내용에 영향을 주지 않습니다.
+- 한·영 화면을 지원합니다. 기존 스크롤 캡처 시험 기능은 그대로이며 Chrome/NAVER 전체 경로 검증은 남아 있습니다.
+
+[Download / 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.1.0/PerfectScreenShot-v2.1.0-Windows-x64.zip)
+
 ## v2.0.1 — First public preview / 첫 공개 시험판
 
 ### English

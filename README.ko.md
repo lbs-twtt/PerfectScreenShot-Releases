@@ -6,9 +6,17 @@
 
 영역을 캡처하고 필요한 표시를 더한 뒤 복사하거나 저장하는 무료 Windows 스크린샷 프로그램입니다.
 
-**[Windows x64용 v2.0.1 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.0.1/PerfectScreenShot-v2.0.1-bilingual-preview-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Windows x64용 v2.1.0 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.1.0/PerfectScreenShot-v2.1.0-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
-v2.0.1은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
+v2.1.0은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
+
+## v2.1.0의 새 기능
+
+- **Ctrl+Alt+V**로 최근 캡처를 열고 이미지를 선택하면 크게 미리 볼 수 있습니다. **화면에 맞춤**, **100%**, **Ctrl+마우스 휠**로 확대·축소할 수 있습니다.
+- **선택 삭제**는 한 장을 삭제하고, **전체 삭제**는 확인 후 목록을 비웁니다. 저장한 파일과 클립보드 내용에는 영향을 주지 않습니다.
+- **편집**에서 기존 편집 도구를 사용할 수 있습니다. **편집 완료**를 누르면 파일 저장이나 클립보드 복사 없이 편집본을 최근 캡처에 추가합니다. 복사·저장·고정한 결과도 보관됩니다.
+- 원본도 남지만 최대 10장 보관 규칙은 적용됩니다. 같은 편집창에서 다시 출력하면 해당 편집본을 갱신합니다. 이전 표시는 이미지에 합쳐져 있으며 새 표시를 추가하거나 영역을 자를 수 있습니다.
+- **Ctrl+Enter**로 편집을 완료합니다. 텍스트 입력 중에는 먼저 글자 입력을 마칩니다. **Esc**나 편집창 닫기는 마지막 출력 이후의 변경을 취소합니다.
 
 ## 시작하기
 
