@@ -2,12 +2,15 @@
 
 [English guide](README.md) · [한국어 안내](README.ko.md) · [Downloads](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases)
 
-## v2.2.0 — Braces and number sizing / 영역 괄호·번호 크기 — 2026-11-03
+## v2.2.0 — Capture rotation, braces and number sizing / 캡처 회전·영역 괄호·번호 크기 — 2026-11-03
 
-**Same-version follow-up / 동일 버전 후속 개선:** separate rotation/flip buttons · 회전/반전 버튼 분리. App version / 앱 버전: **2.2.0**.
+**Same-version follow-up / 동일 버전 후속 개선:** whole-capture rotation with Ctrl+Shift+R, retaining separate brace rotation/flip controls · Ctrl+Shift+R 캡처 전체 회전 추가, 별도 괄호 회전·반전 버튼 유지. App version / 앱 버전: **2.2.0**.
 
 ### English
 
+- **Ctrl+Shift+R** rotates the selected capture, including all annotations, 90° clockwise during editing. This is separate from the Brace rotation button. Current-session annotations remain selectable/editable, and rotation supports undo/redo.
+- A normal capture's editing preview scales down if needed to fit the screen; output keeps the original pixel resolution. The recent-capture editor retains original-size display with scrolling.
+- Text entry temporarily uses the original orientation and restores the rotated view when input finishes or is canceled. Ctrl+Shift+R commits pending text before rotating. Rotation is unavailable during area selection or an active drag.
 - Added Brace (G) to group items horizontally or vertically. Set its color, width and span/depth; use Select (V) to move/resize it.
 - **Rotate 90°** now turns the brace clockwise: Down → Left → Up → Right → Down, with the current direction shown on the button. **Flip horizontal** swaps Left/Right for vertical braces. Horizontal braces are symmetric, so their shape stays the same and an explanation is shown. Rotating or flipping existing braces preserves their center and supports undo/redo; the last direction is remembered for new braces.
 - Repeat G/Shift+G to increase/decrease brace width. Edits support undo/redo.
@@ -17,6 +20,9 @@
 
 ### 한국어
 
+- 편집 중 **Ctrl+Shift+R**을 누를 때마다 선택한 캡처 전체를 주석과 함께 시계방향으로 90° 회전합니다. 괄호 회전 버튼과 별도 기능이며, 현재 편집의 표시는 계속 선택·수정할 수 있습니다. 회전은 실행 취소·다시 실행할 수 있습니다.
+- 일반 캡처는 필요할 때 편집 미리보기만 화면에 맞춰 축소하고 출력은 원본 해상도를 유지합니다. 최근 캡처 편집은 원본 크기 표시와 스크롤을 유지합니다.
+- 텍스트 입력 중에는 임시로 원래 방향을 표시하고 입력 완료·취소 후 회전 방향으로 돌아갑니다. Ctrl+Shift+R은 입력 중인 텍스트를 확정한 뒤 회전하며, 영역 선택·드래그 중에는 회전하지 않습니다.
 - 여러 요소를 가로·세로로 묶어 표시하는 영역 괄호(G)를 추가했습니다. 색상·굵기·길이·깊이를 조절하고 선택(V)으로 이동·크기 조절합니다.
 - **90° 회전**으로 아래 → 왼쪽 → 위 → 오른쪽 → 아래 순서로 시계방향 회전하고 버튼에서 현재 방향을 확인합니다. 별도 **좌우 반전** 버튼은 세로 괄호의 왼쪽·오른쪽을 바꿉니다. 가로 괄호는 좌우 대칭이어서 모양이 그대로임을 안내합니다. 기존 괄호는 중심을 유지하고 실행 취소·다시 실행할 수 있으며, 마지막 방향을 다음 괄호에 기억합니다.
 - G/Shift+G로 괄호 굵기를 늘리거나 줄입니다. 변경은 실행 취소·다시 실행할 수 있습니다.
@@ -24,7 +30,7 @@
 - N/Shift+N으로 번호 글자 크기를 조절하고 글꼴·굵게 설정을 적용합니다. 번호에서는 효과가 없는 선 굵기 입력을 비활성화했습니다.
 - 최근 캡처와 한·영 지원을 유지합니다. 스크롤 캡처는 시험 기능이며 실제 Chrome/NAVER 전체 흐름 검증은 남아 있습니다.
 
-[Current rotation/flip build / 현재 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip) · [Previous v2.2.0 build / 이전 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)
+[Current capture-rotation build / 현재 캡처 회전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip) · [Previous brace-controls build / 이전 괄호 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip) · [Original v2.2.0 build / 최초 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)
 
 ## v2.1.0 — Recent captures / 최근 캡처 개선
 

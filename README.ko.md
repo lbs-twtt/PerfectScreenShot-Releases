@@ -6,14 +6,17 @@
 
 영역을 캡처하고 필요한 표시를 더한 뒤 복사하거나 저장하는 무료 Windows 스크린샷 프로그램입니다.
 
-**[Windows x64용 v2.2.0 회전·반전 개선본 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Windows x64용 v2.2.0 캡처 회전 개선본 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
 v2.2.0은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
 
 ## v2.2.0의 새 기능
 
-앱 버전은 **2.2.0**을 유지하고, 같은 버전의 후속 개선으로 괄호 회전·좌우 반전을 별도 버튼으로 제공합니다. [이전 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0)도 보존합니다.
+앱 버전은 **2.2.0**을 유지하고, 같은 버전의 후속 개선으로 캡처 전체 회전을 추가합니다. [이전 괄호 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0-brace-controls-20261103)과 [최초 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0)도 보존합니다.
 
+- **Ctrl+Shift+R:** 편집 중 누를 때마다 선택한 캡처 전체와 주석을 함께 시계방향으로 90° 회전합니다. 괄호 회전 버튼과는 별도 기능입니다. 현재 편집 중 추가한 표시는 회전 후에도 선택·수정할 수 있고, 회전은 실행 취소·다시 실행할 수 있습니다.
+- 회전한 캡처가 화면보다 크면 편집 미리보기만 화면에 맞춰 축소하며 출력은 원본 해상도를 유지합니다. 최근 캡처 편집에서는 원본 크기로 표시하고 스크롤로 이동합니다.
+- 텍스트를 입력하는 동안에는 임시로 원래 방향을 보여주고, 입력 완료·취소 후 회전한 방향으로 돌아갑니다. Ctrl+Shift+R은 입력 중인 텍스트를 확정한 뒤 회전합니다. 영역 선택이나 드래그 중에는 회전하지 않습니다.
 - **영역 괄호(G):** 드래그해 여러 요소를 묶는 중괄호를 만들고 색상·굵기를 고릅니다. **90° 회전**으로 아래 → 왼쪽 → 위 → 오른쪽 → 아래 순서로 시계방향 회전하며 버튼에 현재 방향도 표시합니다.
 - **좌우 반전**은 세로 괄호의 왼쪽·오른쪽을 바꿉니다. 가로 괄호는 좌우 대칭이므로 모양이 그대로임을 안내합니다. 선택(V)한 기존 괄호는 중심 유지로 회전·반전하고 이동·크기 조절·실행 취소·다시 실행할 수 있습니다. 마지막 방향을 다음 괄호에 기억하며 G/Shift+G 굵기 ±1도 유지합니다.
 - **번호 크기 수정:** 글꼴 옆 크기 값을 바꾸면 숫자와 원형 배지가 함께 확대·축소됩니다. 선택한 번호는 중심을 유지하고, 선택하지 않은 상태의 변경은 다음 번호에 적용됩니다.
@@ -66,6 +69,7 @@ GitHub가 자동으로 제공하는 **Source code (zip/tar.gz)**에는 이 저�
 | 텍스트 굵게 / 기울임 / 밑줄 | 텍스트 모드에서 Ctrl+B / Ctrl+I / Ctrl+U |
 | 복사 후 완료 / 복사 후 계속 편집 | Enter / Ctrl+C |
 | 파일 저장 / 화면에 고정 | Ctrl+S / F2 |
+| 편집 중 캡처 전체 시계방향 90° 회전 | Ctrl+Shift+R |
 | 실행 취소 / 다시 실행 | Ctrl+Z / Ctrl+Y |
 | 십자선 크기 / 정밀창 확대 배율 | 영역 선택 중 F1 / Ctrl+휠 |
 | 진행 중 조작 취소 또는 대기 중 캡처 닫기 | Esc |

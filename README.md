@@ -6,14 +6,17 @@ English | [한국어](README.ko.md)
 
 A free Windows screenshot tool. Capture an area, add annotations, and copy or save the result.
 
-**[Download v2.2.0 rotation/flip update for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Download v2.2.0 capture-rotation update for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
 v2.2.0 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
 
 ## New in v2.2.0
 
-This follow-up keeps the app version at **2.2.0** and adds separate brace rotation and horizontal-flip controls. [The previous v2.2.0 build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0) remains available.
+This follow-up keeps the app version at **2.2.0** and adds whole-capture rotation. The [previous brace-controls build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0-brace-controls-20261103) and [original v2.2.0 build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0) remain available.
 
+- **Ctrl+Shift+R:** during editing, rotate the selected capture and all its annotations 90° clockwise with each press. This is separate from the Brace rotation button. Annotations added in the current session remain selectable and editable, and rotation supports undo/redo.
+- If a rotated capture exceeds the screen, its editing preview scales down to fit; output retains the original pixel resolution. Editing a recent capture keeps the original display size and uses scrolling.
+- Text entry temporarily shows the capture in its original orientation, then returns to the rotated view when input is finished or canceled. Ctrl+Shift+R finishes pending text before rotating. Rotation is unavailable during area selection or an active drag.
 - **Brace (G):** drag a curly brace to group items and set its color/width. **Rotate 90°** turns it clockwise (Down → Left → Up → Right → Down) and shows the current direction.
 - **Flip horizontal** swaps Left/Right for vertical braces. Horizontal braces are symmetric, so their shape remains unchanged and an explanation is shown. Select (V) an existing brace to move/resize/rotate/flip it, with undo/redo. Rotation and flipping preserve its center. The last direction is remembered for new braces; G/Shift+G adjusts width by one.
 - **Number size fixed:** change the font-size value to scale the number and its circular badge together. A selected badge keeps its center; changes with no number selected apply to the next number.
@@ -66,6 +69,7 @@ These are the defaults. Most capture/tool shortcuts can be changed in Settings.
 | Bold / Italic / Underline in text mode | Ctrl+B / Ctrl+I / Ctrl+U |
 | Copy and finish / Copy and continue editing | Enter / Ctrl+C |
 | Save file / Pin on screen | Ctrl+S / F2 |
+| Rotate the whole capture 90° clockwise during editing | Ctrl+Shift+R |
 | Undo / Redo | Ctrl+Z / Ctrl+Y |
 | Change crosshair size / Magnifier zoom | F1 / Ctrl+wheel during selection |
 | Cancel current action or close an idle capture | Esc |
