@@ -4,9 +4,12 @@
 
 ## v2.2.0 — Braces and number sizing / 영역 괄호·번호 크기 — 2026-11-03
 
+**Same-version follow-up / 동일 버전 후속 개선:** separate rotation/flip buttons · 회전/반전 버튼 분리. App version / 앱 버전: **2.2.0**.
+
 ### English
 
-- Added Brace (G) to group items horizontally or vertically. Set its color, width, span/depth and Down/Up/Left/Right direction; use Select (V) to move/resize it.
+- Added Brace (G) to group items horizontally or vertically. Set its color, width and span/depth; use Select (V) to move/resize it.
+- **Rotate 90°** now turns the brace clockwise: Down → Left → Up → Right → Down, with the current direction shown on the button. **Flip horizontal** swaps Left/Right for vertical braces. Horizontal braces are symmetric, so their shape stays the same and an explanation is shown. Rotating or flipping existing braces preserves their center and supports undo/redo; the last direction is remembered for new braces.
 - Repeat G/Shift+G to increase/decrease brace width. Edits support undo/redo.
 - Fixed font-size changes not resizing an existing numbered badge. Numbers and badges now scale together around the same center. New numbers use the chosen size.
 - N/Shift+N adjusts number font size. Font family and Bold apply; the ineffective line-width control is disabled for numbers.
@@ -14,13 +17,14 @@
 
 ### 한국어
 
-- 여러 요소를 가로·세로로 묶어 표시하는 영역 괄호(G)를 추가했습니다. 색상·굵기·길이·깊이와 아래·위·왼쪽·오른쪽 방향을 조절하고 선택(V)으로 이동·크기 조절합니다.
+- 여러 요소를 가로·세로로 묶어 표시하는 영역 괄호(G)를 추가했습니다. 색상·굵기·길이·깊이를 조절하고 선택(V)으로 이동·크기 조절합니다.
+- **90° 회전**으로 아래 → 왼쪽 → 위 → 오른쪽 → 아래 순서로 시계방향 회전하고 버튼에서 현재 방향을 확인합니다. 별도 **좌우 반전** 버튼은 세로 괄호의 왼쪽·오른쪽을 바꿉니다. 가로 괄호는 좌우 대칭이어서 모양이 그대로임을 안내합니다. 기존 괄호는 중심을 유지하고 실행 취소·다시 실행할 수 있으며, 마지막 방향을 다음 괄호에 기억합니다.
 - G/Shift+G로 괄호 굵기를 늘리거나 줄입니다. 변경은 실행 취소·다시 실행할 수 있습니다.
 - 글자 크기를 바꿔도 기존 번호 배지 크기가 그대로였던 문제를 수정했습니다. 숫자와 배지가 중심을 유지하며 함께 확대·축소되고 새 번호에도 지정한 크기를 적용합니다.
 - N/Shift+N으로 번호 글자 크기를 조절하고 글꼴·굵게 설정을 적용합니다. 번호에서는 효과가 없는 선 굵기 입력을 비활성화했습니다.
 - 최근 캡처와 한·영 지원을 유지합니다. 스크롤 캡처는 시험 기능이며 실제 Chrome/NAVER 전체 흐름 검증은 남아 있습니다.
 
-[Download / 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)
+[Current rotation/flip build / 현재 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip) · [Previous v2.2.0 build / 이전 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)
 
 ## v2.1.0 — Recent captures / 최근 캡처 개선
 

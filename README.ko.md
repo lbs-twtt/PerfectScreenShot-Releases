@@ -6,13 +6,16 @@
 
 영역을 캡처하고 필요한 표시를 더한 뒤 복사하거나 저장하는 무료 Windows 스크린샷 프로그램입니다.
 
-**[Windows x64용 v2.2.0 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Windows x64용 v2.2.0 회전·반전 개선본 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
 v2.2.0은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
 
 ## v2.2.0의 새 기능
 
-- **영역 괄호(G):** 드래그해 여러 요소를 묶는 중괄호를 만듭니다. 색상·굵기를 고르고 방향 버튼으로 아래 → 위 → 왼쪽 → 오른쪽을 전환합니다. 선택(V)으로 이동·크기 조절, G/Shift+G로 굵기 ±1을 적용합니다.
+앱 버전은 **2.2.0**을 유지하고, 같은 버전의 후속 개선으로 괄호 회전·좌우 반전을 별도 버튼으로 제공합니다. [이전 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0)도 보존합니다.
+
+- **영역 괄호(G):** 드래그해 여러 요소를 묶는 중괄호를 만들고 색상·굵기를 고릅니다. **90° 회전**으로 아래 → 왼쪽 → 위 → 오른쪽 → 아래 순서로 시계방향 회전하며 버튼에 현재 방향도 표시합니다.
+- **좌우 반전**은 세로 괄호의 왼쪽·오른쪽을 바꿉니다. 가로 괄호는 좌우 대칭이므로 모양이 그대로임을 안내합니다. 선택(V)한 기존 괄호는 중심 유지로 회전·반전하고 이동·크기 조절·실행 취소·다시 실행할 수 있습니다. 마지막 방향을 다음 괄호에 기억하며 G/Shift+G 굵기 ±1도 유지합니다.
 - **번호 크기 수정:** 글꼴 옆 크기 값을 바꾸면 숫자와 원형 배지가 함께 확대·축소됩니다. 선택한 번호는 중심을 유지하고, 선택하지 않은 상태의 변경은 다음 번호에 적용됩니다.
 - **N/Shift+N**으로 번호 크기를 1씩 조절하고 글꼴·굵게를 적용합니다. 번호에서는 선 굵기 입력을 비활성화했습니다. 변경은 실행 취소·다시 실행할 수 있습니다.
 - 최근 캡처·한국어/영어·출력 기능을 유지합니다. 과거 이미지에 합쳐진 표시는 개별 객체로 복원하지 않습니다.

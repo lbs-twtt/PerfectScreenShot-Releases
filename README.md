@@ -6,13 +6,16 @@ English | [한국어](README.ko.md)
 
 A free Windows screenshot tool. Capture an area, add annotations, and copy or save the result.
 
-**[Download v2.2.0 for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Download v2.2.0 rotation/flip update for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
 v2.2.0 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
 
 ## New in v2.2.0
 
-- **Brace (G):** drag a curly brace to group items. Set color/width and cycle Down → Up → Left → Right with the direction button. Select (V) moves/resizes it; G/Shift+G adjusts width by one.
+This follow-up keeps the app version at **2.2.0** and adds separate brace rotation and horizontal-flip controls. [The previous v2.2.0 build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0) remains available.
+
+- **Brace (G):** drag a curly brace to group items and set its color/width. **Rotate 90°** turns it clockwise (Down → Left → Up → Right → Down) and shows the current direction.
+- **Flip horizontal** swaps Left/Right for vertical braces. Horizontal braces are symmetric, so their shape remains unchanged and an explanation is shown. Select (V) an existing brace to move/resize/rotate/flip it, with undo/redo. Rotation and flipping preserve its center. The last direction is remembered for new braces; G/Shift+G adjusts width by one.
 - **Number size fixed:** change the font-size value to scale the number and its circular badge together. A selected badge keeps its center; changes with no number selected apply to the next number.
 - **N/Shift+N** increases/decreases number font size by one. Font family and Bold apply; the line-width input is disabled for numbers. Changes support undo/redo.
 - Existing recent-capture, Korean/English and output features are retained. Old flattened images do not regain separately editable annotations.
