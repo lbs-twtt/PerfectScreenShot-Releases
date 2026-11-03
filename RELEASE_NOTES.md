@@ -2,6 +2,26 @@
 
 [English guide](README.md) · [한국어 안내](README.ko.md) · [Downloads](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases)
 
+## v2.2.0 — Braces and number sizing / 영역 괄호·번호 크기 — 2026-11-03
+
+### English
+
+- Added Brace (G) to group items horizontally or vertically. Set its color, width, span/depth and Down/Up/Left/Right direction; use Select (V) to move/resize it.
+- Repeat G/Shift+G to increase/decrease brace width. Edits support undo/redo.
+- Fixed font-size changes not resizing an existing numbered badge. Numbers and badges now scale together around the same center. New numbers use the chosen size.
+- N/Shift+N adjusts number font size. Font family and Bold apply; the ineffective line-width control is disabled for numbers.
+- Recent captures and Korean/English support are retained. Scrolling capture remains experimental, with the complete Chrome/NAVER workflow still unverified.
+
+### 한국어
+
+- 여러 요소를 가로·세로로 묶어 표시하는 영역 괄호(G)를 추가했습니다. 색상·굵기·길이·깊이와 아래·위·왼쪽·오른쪽 방향을 조절하고 선택(V)으로 이동·크기 조절합니다.
+- G/Shift+G로 괄호 굵기를 늘리거나 줄입니다. 변경은 실행 취소·다시 실행할 수 있습니다.
+- 글자 크기를 바꿔도 기존 번호 배지 크기가 그대로였던 문제를 수정했습니다. 숫자와 배지가 중심을 유지하며 함께 확대·축소되고 새 번호에도 지정한 크기를 적용합니다.
+- N/Shift+N으로 번호 글자 크기를 조절하고 글꼴·굵게 설정을 적용합니다. 번호에서는 효과가 없는 선 굵기 입력을 비활성화했습니다.
+- 최근 캡처와 한·영 지원을 유지합니다. 스크롤 캡처는 시험 기능이며 실제 Chrome/NAVER 전체 흐름 검증은 남아 있습니다.
+
+[Download / 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)
+
 ## v2.1.0 — Recent captures / 최근 캡처 개선
 
 ### English

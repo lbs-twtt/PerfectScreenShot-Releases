@@ -6,9 +6,16 @@ English | [한국어](README.ko.md)
 
 A free Windows screenshot tool. Capture an area, add annotations, and copy or save the result.
 
-**[Download v2.1.0 for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.1.0/PerfectScreenShot-v2.1.0-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Download v2.2.0 for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
-v2.1.0 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
+v2.2.0 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
+
+## New in v2.2.0
+
+- **Brace (G):** drag a curly brace to group items. Set color/width and cycle Down → Up → Left → Right with the direction button. Select (V) moves/resizes it; G/Shift+G adjusts width by one.
+- **Number size fixed:** change the font-size value to scale the number and its circular badge together. A selected badge keeps its center; changes with no number selected apply to the next number.
+- **N/Shift+N** increases/decreases number font size by one. Font family and Bold apply; the line-width input is disabled for numbers. Changes support undo/redo.
+- Existing recent-capture, Korean/English and output features are retained. Old flattened images do not regain separately editable annotations.
 
 ## New in v2.1.0
 
@@ -51,7 +58,8 @@ These are the defaults. Most capture/tool shortcuts can be changed in Settings.
 | Recent captures | Ctrl+Alt+V |
 | Rectangle / Window / Full screen / Freehand | 1 / 2 / 3 / 4 during selection |
 | Select / Arrow / Box / Text | V / A / R / T |
-| Increase / decrease line width or text size | Repeat the tool key / Shift+tool key |
+| Brace / Number | G / N |
+| Increase / decrease line width or text/number size | Repeat the tool key / Shift+tool key |
 | Bold / Italic / Underline in text mode | Ctrl+B / Ctrl+I / Ctrl+U |
 | Copy and finish / Copy and continue editing | Enter / Ctrl+C |
 | Save file / Pin on screen | Ctrl+S / F2 |

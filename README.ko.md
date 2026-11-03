@@ -6,9 +6,16 @@
 
 영역을 캡처하고 필요한 표시를 더한 뒤 복사하거나 저장하는 무료 Windows 스크린샷 프로그램입니다.
 
-**[Windows x64용 v2.1.0 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.1.0/PerfectScreenShot-v2.1.0-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Windows x64용 v2.2.0 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
-v2.1.0은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
+v2.2.0은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
+
+## v2.2.0의 새 기능
+
+- **영역 괄호(G):** 드래그해 여러 요소를 묶는 중괄호를 만듭니다. 색상·굵기를 고르고 방향 버튼으로 아래 → 위 → 왼쪽 → 오른쪽을 전환합니다. 선택(V)으로 이동·크기 조절, G/Shift+G로 굵기 ±1을 적용합니다.
+- **번호 크기 수정:** 글꼴 옆 크기 값을 바꾸면 숫자와 원형 배지가 함께 확대·축소됩니다. 선택한 번호는 중심을 유지하고, 선택하지 않은 상태의 변경은 다음 번호에 적용됩니다.
+- **N/Shift+N**으로 번호 크기를 1씩 조절하고 글꼴·굵게를 적용합니다. 번호에서는 선 굵기 입력을 비활성화했습니다. 변경은 실행 취소·다시 실행할 수 있습니다.
+- 최근 캡처·한국어/영어·출력 기능을 유지합니다. 과거 이미지에 합쳐진 표시는 개별 객체로 복원하지 않습니다.
 
 ## v2.1.0의 새 기능
 
@@ -51,7 +58,8 @@ GitHub가 자동으로 제공하는 **Source code (zip/tar.gz)**에는 이 저�
 | 최근 캡처 | Ctrl+Alt+V |
 | 직사각형 / 창 / 전체화면 / 자유형 | 영역 선택 중 1 / 2 / 3 / 4 |
 | 선택 / 화살표 / 상자 / 텍스트 | V / A / R / T |
-| 선 굵기 또는 글자 크기 증가 / 감소 | 같은 도구 키 반복 / Shift+도구 키 |
+| 영역 괄호 / 번호 | G / N |
+| 선 굵기 또는 텍스트·번호 크기 증가 / 감소 | 같은 도구 키 반복 / Shift+도구 키 |
 | 텍스트 굵게 / 기울임 / 밑줄 | 텍스트 모드에서 Ctrl+B / Ctrl+I / Ctrl+U |
 | 복사 후 완료 / 복사 후 계속 편집 | Enter / Ctrl+C |
 | 파일 저장 / 화면에 고정 | Ctrl+S / F2 |
