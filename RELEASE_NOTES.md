@@ -2,6 +2,22 @@
 
 [English guide](README.md) · [한국어 안내](README.ko.md) · [Downloads](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases)
 
+## v2.2.0 — Rotation button / 캡처 회전 버튼 — 2026-11-03
+
+App version / 앱 버전: **2.2.0** (unchanged / 유지).
+
+### English
+
+- Added **Rotate capture** between **Copy & finish** and **Settings**. Each click rotates the entire capture 90° clockwise.
+- **Ctrl+Shift+R** appears in the hover tooltip instead of on the button. The existing shortcut and undo/redo remain available.
+
+### 한국어
+
+- 편집 메뉴의 **복사 완료**와 **설정** 사이에 **캡처 회전** 버튼을 추가했습니다. 클릭할 때마다 캡처 전체를 시계방향으로 90° 회전합니다.
+- **Ctrl+Shift+R**은 버튼 본문 대신 마우스를 올렸을 때 툴팁으로 표시합니다. 기존 단축키와 실행 취소·다시 실행은 유지합니다.
+
+[Current rotation-button build / 현재 회전 버튼 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-rotation-button-20261103/PerfectScreenShot-v2.2.0-rotation-button-Windows-x64.zip) · [Previous keyboard-rotation build / 이전 단축키 회전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip)
+
 ## v2.2.0 — Capture rotation, braces and number sizing / 캡처 회전·영역 괄호·번호 크기 — 2026-11-03
 
 **Same-version follow-up / 동일 버전 후속 개선:** whole-capture rotation with Ctrl+Shift+R, retaining separate brace rotation/flip controls · Ctrl+Shift+R 캡처 전체 회전 추가, 별도 괄호 회전·반전 버튼 유지. App version / 앱 버전: **2.2.0**.
@@ -30,7 +46,7 @@
 - N/Shift+N으로 번호 글자 크기를 조절하고 글꼴·굵게 설정을 적용합니다. 번호에서는 효과가 없는 선 굵기 입력을 비활성화했습니다.
 - 최근 캡처와 한·영 지원을 유지합니다. 스크롤 캡처는 시험 기능이며 실제 Chrome/NAVER 전체 흐름 검증은 남아 있습니다.
 
-[Current capture-rotation build / 현재 캡처 회전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip) · [Previous brace-controls build / 이전 괄호 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip) · [Original v2.2.0 build / 최초 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)
+[Previous capture-rotation build / 이전 캡처 회전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip) · [Previous brace-controls build / 이전 괄호 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-brace-controls-20261103/PerfectScreenShot-v2.2.0-brace-controls-Windows-x64.zip) · [Original v2.2.0 build / 최초 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0/PerfectScreenShot-v2.2.0-Windows-x64.zip)
 
 ## v2.1.0 — Recent captures / 최근 캡처 개선
 

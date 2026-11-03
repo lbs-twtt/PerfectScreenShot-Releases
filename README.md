@@ -6,14 +6,15 @@ English | [한국어](README.ko.md)
 
 A free Windows screenshot tool. Capture an area, add annotations, and copy or save the result.
 
-**[Download v2.2.0 capture-rotation update for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Download v2.2.0 rotation-button update for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-rotation-button-20261103/PerfectScreenShot-v2.2.0-rotation-button-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
 v2.2.0 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
 
 ## New in v2.2.0
 
-This follow-up keeps the app version at **2.2.0** and adds whole-capture rotation. The [previous brace-controls build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0-brace-controls-20261103) and [original v2.2.0 build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0) remain available.
+This follow-up keeps the app version at **2.2.0** and adds a button for whole-capture rotation. The [previous brace-controls build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0-brace-controls-20261103) and [original v2.2.0 build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0) remain available.
 
+- **Rotate capture** sits between **Copy & finish** and **Settings** in the editing toolbar. Each click rotates the entire capture 90° clockwise. Hover over the button to see **Ctrl+Shift+R**; the shortcut is not printed on the button. The [previous keyboard-rotation build](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip) remains available.
 - **Ctrl+Shift+R:** during editing, rotate the selected capture and all its annotations 90° clockwise with each press. This is separate from the Brace rotation button. Annotations added in the current session remain selectable and editable, and rotation supports undo/redo.
 - If a rotated capture exceeds the screen, its editing preview scales down to fit; output retains the original pixel resolution. Editing a recent capture keeps the original display size and uses scrolling.
 - Text entry temporarily shows the capture in its original orientation, then returns to the rotated view when input is finished or canceled. Ctrl+Shift+R finishes pending text before rotating. Rotation is unavailable during area selection or an active drag.

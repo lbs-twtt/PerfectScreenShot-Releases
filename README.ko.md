@@ -6,14 +6,15 @@
 
 영역을 캡처하고 필요한 표시를 더한 뒤 복사하거나 저장하는 무료 Windows 스크린샷 프로그램입니다.
 
-**[Windows x64용 v2.2.0 캡처 회전 개선본 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
+**[Windows x64용 v2.2.0 회전 버튼 개선본 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-rotation-button-20261103/PerfectScreenShot-v2.2.0-rotation-button-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
 v2.2.0은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
 
 ## v2.2.0의 새 기능
 
-앱 버전은 **2.2.0**을 유지하고, 같은 버전의 후속 개선으로 캡처 전체 회전을 추가합니다. [이전 괄호 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0-brace-controls-20261103)과 [최초 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0)도 보존합니다.
+앱 버전은 **2.2.0**을 유지하고, 같은 버전의 후속 개선으로 캡처 전체 회전 버튼을 추가합니다. [이전 괄호 회전·반전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0-brace-controls-20261103)과 [최초 v2.2.0 배포본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/tag/v2.2.0)도 보존합니다.
 
+- 편집 메뉴의 **복사 완료**와 **설정** 사이에 **캡처 회전** 버튼이 있습니다. 클릭할 때마다 캡처 전체를 시계방향으로 90° 회전합니다. 버튼에 마우스를 올리면 **Ctrl+Shift+R** 단축키가 툴팁에 표시되며, 버튼 본문에는 단축키를 넣지 않습니다. [이전 단축키 회전 개선본](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-capture-rotation-20261103/PerfectScreenShot-v2.2.0-capture-rotation-Windows-x64.zip)도 보존합니다.
 - **Ctrl+Shift+R:** 편집 중 누를 때마다 선택한 캡처 전체와 주석을 함께 시계방향으로 90° 회전합니다. 괄호 회전 버튼과는 별도 기능입니다. 현재 편집 중 추가한 표시는 회전 후에도 선택·수정할 수 있고, 회전은 실행 취소·다시 실행할 수 있습니다.
 - 회전한 캡처가 화면보다 크면 편집 미리보기만 화면에 맞춰 축소하며 출력은 원본 해상도를 유지합니다. 최근 캡처 편집에서는 원본 크기로 표시하고 스크롤로 이동합니다.
 - 텍스트를 입력하는 동안에는 임시로 원래 방향을 보여주고, 입력 완료·취소 후 회전한 방향으로 돌아갑니다. Ctrl+Shift+R은 입력 중인 텍스트를 확정한 뒤 회전합니다. 영역 선택이나 드래그 중에는 회전하지 않습니다.
