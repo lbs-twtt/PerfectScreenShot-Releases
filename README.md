@@ -8,6 +8,8 @@ A free Windows screenshot tool. Capture an area, add annotations, and copy or sa
 
 **[Download v2.2.0 rotation-button update for Windows x64](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-rotation-button-20261103/PerfectScreenShot-v2.2.0-rotation-button-Windows-x64.zip)** · [Release notes](RELEASE_NOTES.md) · [Report an issue](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
+![PerfectScreenShot demo — select an area, annotate, and rotate 90°](assets/demo-en.gif)
+
 v2.2.0 is a **preview release**. Scrolling capture is experimental: its complete automatic-capture-to-save workflow in Chrome/NAVER has not yet been verified. Check the preview before using a scrolling-capture result.
 
 ## New in v2.2.0

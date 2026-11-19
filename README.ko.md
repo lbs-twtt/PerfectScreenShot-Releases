@@ -8,6 +8,8 @@
 
 **[Windows x64용 v2.2.0 회전 버튼 개선본 다운로드](https://github.com/lbs-twtt/PerfectScreenShot-Releases/releases/download/v2.2.0-rotation-button-20261103/PerfectScreenShot-v2.2.0-rotation-button-Windows-x64.zip)** · [릴리스 노트](RELEASE_NOTES.md) · [문제 제보](https://github.com/lbs-twtt/PerfectScreenShot-Releases/issues)
 
+![PerfectScreenShot 작동 예시 — 영역 선택 · 주석 표시 · 90° 회전](assets/demo-ko.gif)
+
 v2.2.0은 **시험판**입니다. 스크롤 캡처는 시험 기능이며, Chrome/NAVER에서 자동 수집부터 저장까지 전체 동작은 아직 확인하지 못했습니다. 스크롤 캡처 결과는 미리보기에서 확인한 뒤 사용해 주세요.
 
 ## v2.2.0의 새 기능
