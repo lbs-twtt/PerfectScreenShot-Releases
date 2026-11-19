@@ -26,6 +26,8 @@ This follow-up keeps the app version at **2.2.0** and adds a button for whole-ca
 - **N/Shift+N** increases/decreases number font size by one. Font family and Bold apply; the line-width input is disabled for numbers. Changes support undo/redo.
 - Existing recent-capture, Korean/English and output features are retained. Old flattened images do not regain separately editable annotations.
 
+![Grouping braces (G) with rotate/flip and scaled number badges (N)](assets/demo-brace-number-en.gif)
+
 ## New in v2.1.0
 
 - Open recent captures with **Ctrl+Alt+V**. Select an image for a larger preview; use **Fit**, **100%**, or **Ctrl+mouse wheel** to inspect it.
@@ -33,6 +35,8 @@ This follow-up keeps the app version at **2.2.0** and adds a button for whole-ca
 - **Edit** opens the selected image with the existing annotation tools. **Finish editing** keeps the result as a new recent capture without copying or saving a file. Copy/save/pin also retain the edited result.
 - The original is kept subject to the normal limit of 10 captures. Repeated outputs from the same edit session update that session's entry. Earlier annotations are part of the image; you can add new marks or crop it.
 - **Ctrl+Enter** finishes editing. While typing text, it first finishes the text entry. **Esc** or the editor's close button discards changes made since the last output.
+
+![Recent captures (Ctrl+Alt+V), 100% preview, and non-destructive re-editing](assets/demo-history-en.gif)
 
 ## Get started
 
@@ -54,6 +58,8 @@ Closing the welcome window keeps the program running in the Windows notification
 - Copy to clipboard, save as PNG/JPG, or pin a capture above other windows.
 - Optional history of the 10 most recent captures, with thumbnail selection.
 - Korean and English interfaces, built-in help and offline third-party notices.
+
+![Mosaic redaction, text background color, and always-on-top screen pin (F2)](assets/demo-redact-pin-en.gif)
 
 By default, **left-button selection opens the editor** and **right-button selection copies immediately without editing**. The selection menu's **Swap mouse buttons** button reverses these roles. Quick copy copies to the clipboard; it does not save a file.
 
